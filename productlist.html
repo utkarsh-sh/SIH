@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="productlist.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Product Details</h2>
+        <form id="product-form">
+            <div id="products">
+                <div class="product">
+                    <label>Product Name:</label>
+                    <input type="text" name="product-name" required><br>
+
+                    <label>Product Size:</label>
+                    <input type="text" name="product-size" required><br>
+
+                    <label>Launching Date:</label>
+                    <input type="date" name="launch-date" required><br>
+
+                    <label>Price Range:</label>
+                    <input type="text" name="price-range" required><br>
+
+                    <label>Product Picture:</label>
+                    <input type="file" name="product-picture" accept="image/*" required><br>
+                </div>
+            </div>
+            <button type="button" id="add-product">Add Another Product</button>
+            <button type="submit" onclick="openfarmerDashboard()">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

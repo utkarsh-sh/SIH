@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="productlisting.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Your Product Listings</h1>
+
+        <div class="product-form">
+            <h2>Add New Product</h2>
+            <form id="addProductForm">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" required>
+
+                <label for="productCategory">Category:</label>
+                <input type="text" id="productCategory" required>
+
+                <label for="productPrice">Price (per unit):</label>
+                <input type="number" id="productPrice" required>
+
+                <label for="productQuantity">Quantity:</label>
+                <input type="number" id="productQuantity" required>
+
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+
+        <div class="product-list">
+            <h2>Your Products</h2>
+            <ul id="productList">
+                <!-- Product items will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="farmers.js"></script>
+    
+</body>
+</html>

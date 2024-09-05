@@ -1,0 +1,89 @@
+ body {
+     height: 100%;
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background: url('Firefly\ plowing\ the\ feild\ 96118.jpg') no-repeat center center fixed;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container {
+     text-align: center;
+     width: 50%;
+ }
+
+ .logo {
+     position: center;
+     top: 300px;
+     left: 20px;
+     width: 100px;
+     height: 30%;
+     border-radius: 50%;
+ }
+
+ h1 {
+     margin-top: 100px;
+     color: black;
+     font-size: 40px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+ }
+
+ .buttons {
+     margin-top: 30px;
+ }
+
+ .buttons button {
+     margin: 30px;
+     padding: 20px 40px;
+     font-size: 40px;
+     cursor: pointer;
+     border: none;
+     border-radius: 10px;
+     color: white;
+ }
+
+ .farmer-btn {
+     background-color: green;
+ }
+
+ .retailer-btn {
+     background-color: blue;
+ }
+ .farmer-btn:hover{background-color: rgb(2, 74, 50);
+
+ }
+
+ .retailer-btn:hover{
+    background-color: rgb(8, 8, 106);
+ }
+
+
+ .container h4 {
+     margin-top: 30px;
+     font-size: 30px;
+     font-weight: bold;
+     color: whitesmoke;
+ }
+
+ footer {
+     position: absolute;
+     bottom: 50px;
+     right: 30px;
+     color: white;
+ }
+
+ footer a {
+color: whitesmoke;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight:bold;
+     text-decoration: underline;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
